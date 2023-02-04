@@ -13,7 +13,7 @@ def welcome_assignment_answers(question):
                      "by a TA?":
         answer = "mTCP"
     elif question == "Is it possible to decode a message without a key? - Yes/No":
-        answer = "No"
+        answer = "Yes"
     elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
         answer = "No"
     elif question == "What is the SHA256 hashing value to the following message: 'NYU Computer Networking' " \
@@ -23,10 +23,10 @@ def welcome_assignment_answers(question):
         answer = "No"
     elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an " \
                      "integer number":
-        answer = "7"
+        answer = "4"
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an " \
                      "integer number":
-        answer = "3"
+        answer = "2"
     else:
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
