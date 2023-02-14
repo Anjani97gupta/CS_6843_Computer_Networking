@@ -41,7 +41,7 @@ def webServer(port=13331):
             # Send an HTTP header line into socket for a valid request. What header should be sent for a response that is ok?
             # Note that a complete header must end with a blank line, creating the four-byte sequence "\r\n\r\n" Refer to https://w3.cs.jmu.edu/kirkpams/OpenCSF/Books/csf/html/TCPSockets.html
             # Fill in start
-            # connectionSocket.send('<html><body></body></html>')
+            connectionSocket.send('<html><body></body></html>')
 
             # Fill in end
             # connectionSocket.send(outputdata)
