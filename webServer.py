@@ -59,7 +59,7 @@ def webServer(port=13331):
         except IOError:
             # Send response message for invalid request due to the file not being found (404)
             # Fill in start
-            connectionSocket.send("HTTP/1.1 404 Not Found\r\n\r\n".encode())
+            connectionSocket.send("HTTP/1.1 404 not found\r\n\".encode())
             connectionSocket.close()
     # Fill in end
 
@@ -70,7 +70,7 @@ def webServer(port=13331):
     # Fill in end
 
     # Commenting out the below, as its technically not required and some students have moved it erroneously in the While loop. DO NOT DO THAT OR YOURE GONNA HAVE A BAD TIME.
-    serverSocket.close()
+    #serverSocket.close()
     sys.exit()  # Terminate the program after sending the corresponding data
 
 
